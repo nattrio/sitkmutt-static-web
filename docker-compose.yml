@@ -1,0 +1,6 @@
+services:
+  webserver:
+    build: .
+    image: ghcr.io/nattrio/static-web:dev
+    ports:
+      - 8080:80
